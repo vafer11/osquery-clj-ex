@@ -4,9 +4,9 @@ API that retrieve information about your SO (osquery-clj example)
 
 ## Request and Response
 
-Get logged users.
-Method: GET
-URL: http://localhost:3000/api/users/
+##### Get logged users
+Method: GET<br />
+URL: http://localhost:3000/api/users/<br />
 Response:
 ```json
 [
@@ -37,9 +37,9 @@ Response:
 ]
 ```
 
-Get logged user by id.
-Method: GET
-URL: http://localhost:3000/api/user/20
+#### Get logged user by id.
+Method: GET<br />
+URL: http://localhost:3000/api/user/20<br />
 Response:
 ```json
 [
@@ -58,9 +58,9 @@ Response:
 ]
 ```
 
-Get active processes.
-Method: GET
-URL: http://localhost:3000/api/processes/
+##### Get active processes.
+Method: GET<br />
+URL: http://localhost:3000/api/processes/<br />
 Response:
 ```json
 [
@@ -131,9 +131,9 @@ Response:
 ]
 ```
 
-Get process by id.
-Method: GET
-URL: http://localhost:3000/api/process/72
+#### Get process by id.
+Method: GET<br />
+URL: http://localhost:3000/api/process/72<br />
 Response:
 ```json
 [
@@ -171,9 +171,9 @@ Response:
    }
 ]
 ```
-Get os version.
-Method: GET
-URL: http://localhost:3000/api/os/
+#### Get os version.
+Method: GET<br />
+URL: http://localhost:3000/api/os/<br />
 Response:
 ```json
 [
@@ -182,9 +182,9 @@ Response:
    }
 ]
 ```
-Get kernel version.
-Method: GET
-URL: http://localhost:3000/api/kernel/
+#### Get kernel version.
+Method: GET<br />
+URL: http://localhost:3000/api/kernel/<br />
 Response:
 ```json
 [
