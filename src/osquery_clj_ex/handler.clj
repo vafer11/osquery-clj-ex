@@ -17,7 +17,9 @@
   (GET "/api/processes/" [] (make-response (get-processes)))
   (GET "/api/process/:pid" [pid] (make-response (get-process-by-id pid)))
   (GET "/api/os/" [] (make-response (get-os-version)))
+  (GET "/api/kernel/" [] (make-response (get-kernel-version)))
   (GET "/api/memory/" [] (make-response (get-memory-capacity)))
+  (GET "/api/package/" [] (make-response (get-installed-package)))
   (route/not-found "Not Found"))
 
 (def app
