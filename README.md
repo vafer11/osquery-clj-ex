@@ -58,7 +58,7 @@ Response:
 ]
 ```
 
-##### Get active processes.
+##### Get active processes
 Method: GET<br />
 URL: http://localhost:3000/api/processes/<br />
 Response:
@@ -131,7 +131,7 @@ Response:
 ]
 ```
 
-#### Get process by id.
+#### Get process by id
 Method: GET<br />
 URL: http://localhost:3000/api/process/72<br />
 Response:
@@ -171,7 +171,7 @@ Response:
    }
 ]
 ```
-#### Get os version.
+#### Get os version
 Method: GET<br />
 URL: http://localhost:3000/api/os/<br />
 Response:
@@ -182,7 +182,7 @@ Response:
    }
 ]
 ```
-#### Get kernel version.
+#### Get kernel version
 Method: GET<br />
 URL: http://localhost:3000/api/kernel/<br />
 Response:

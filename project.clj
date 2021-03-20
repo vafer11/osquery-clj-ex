@@ -6,7 +6,7 @@
                  [compojure "1.6.1"]
                  [ring/ring-defaults "0.3.2"]
                  [ring/ring-json "0.5.0"]
-                 [vafer/osquery-clj "0.1.8-alpha"]]
+                 [vafer/osquery-clj "0.2.1-alpha"]]
   :plugins [[lein-ring "0.12.5"]]
   :ring {:handler osquery-clj-ex.handler/app}
   :profiles
